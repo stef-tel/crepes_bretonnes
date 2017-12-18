@@ -20,7 +20,7 @@ urlpatterns = [
     # Uncomment the next line to enable the admin:
     #url(r'^admin/', include(admin.site.urls)),
     
-    #url(r'^accueil$', views.home),
+    #url(r'^accueil$', views.home), essai git
     url(r'^accueil$', views.accueil, name='accueil'),
     url(r'^date$', views.date_actuelle),
     url(r'^addition/(?P<nombre1>\d+)/(?P<nombre2>\d+)/$', views.addition),

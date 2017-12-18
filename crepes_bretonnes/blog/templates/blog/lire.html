@@ -1,0 +1,13 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>{{ article.titre }} <span class="small">dans {{ article.categorie.nom }}</span></h1>
+    <p class="infos">Rédigé par {{ article.auteur }}, le {{ article.date|date:"DATE_FORMAT" }}</p>
+    <div class="contenu">{{ article.contenu|linebreaks }}</div>
+</body>
+</html>

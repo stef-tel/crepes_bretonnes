@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>Bienvenue sur le blog des crêpes bretonnes revisité par stef! git</h1>
+
+{% for article in derniers_articles %}
+    <div class="article">
+    	<h3>{{ article.titre }}</h3>
+    	<p>{{ article.contenu|  :80 }}</p>
+        <p><a href="{% url 'lire' article.id %}">Lire la suite</a>
+    </div>
+{% empty %}
+    <p>Aucun article.</p>
+{% endfor %}
+</body>
+</html>

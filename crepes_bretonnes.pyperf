@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ProfilingTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectTarget>
+    <TargetProject>3d9efe9a-a54b-4da8-8f22-c43c952c8301</TargetProject>
+    <FriendlyName>crepes_bretonnes</FriendlyName>
+  </ProjectTarget>
+  <Reports>
+    <Report>
+      <Filename>C:\Users\stef\AppData\Local\Temp\crepes_bretonnes_20171208.vsp</Filename>
+    </Report>
+  </Reports>
+</ProfilingTarget>
